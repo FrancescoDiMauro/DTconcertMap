@@ -1,0 +1,335 @@
+<html>
+<head>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>Google Maps - pygmaps </title>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=visualization&sensor=true_or_false"></script>
+<script type="text/javascript">
+	function initialize() {
+		var centerlatlng = new google.maps.LatLng(47.500000, 8.500000);
+		var myOptions = {
+			zoom: 6,
+			center: centerlatlng,
+			mapTypeId: google.maps.MapTypeId.ROADMAP
+		};
+		var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+
+		var latlng = new google.maps.LatLng(41.929065, 12.475024);
+		var marker = new google.maps.Marker({
+		title: "Jan 30 (Auditorium Parco della Musica)\nJan 31 (Auditorium Parco della Musica)\nMay 3 (Auditorium Parco della Musica)",
+		animation: google.maps.Animation.DROP,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(45.417470, 11.856245);
+		var marker = new google.maps.Marker({
+		title: "Feb 1 (Gran Teatro Geox)",
+		animation: google.maps.Animation.DROP,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(47.357935, 8.521190);
+		var marker = new google.maps.Marker({
+		title: "Feb 3 (samsung)",
+		animation: google.maps.Animation.DROP,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(45.401412, 9.142295);
+		var marker = new google.maps.Marker({
+		title: "Feb 4 (mediolanum forum)",
+		animation: google.maps.Animation.DROP,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(50.091400, 14.455039);
+		var marker = new google.maps.Marker({
+		title: "Feb 6 (Forum Karlin)",
+		animation: google.maps.Animation.DROP,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(51.557628, 5.092957);
+		var marker = new google.maps.Marker({
+		title: "Feb 8 (013)\nApr 25 (O13)",
+		animation: google.maps.Animation.DROP,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(48.890874, 9.182488);
+		var marker = new google.maps.Marker({
+		title: "Feb 10 (MHP Arena)",
+		animation: google.maps.Animation.DROP,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(51.206245, 6.808600);
+		var marker = new google.maps.Marker({
+		title: "Feb 11 (Mitsubishi Electric Halle)",
+		animation: google.maps.Animation.DROP,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(48.893812, 2.393157);
+		var marker = new google.maps.Marker({
+		title: "Feb 12 (Zenith)",
+		animation: google.maps.Animation.DROP,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(53.542930, 10.016093);
+		var marker = new google.maps.Marker({
+		title: "Feb 14 (Mehr)",
+		animation: google.maps.Animation.DROP,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(55.563767, 12.976260);
+		var marker = new google.maps.Marker({
+		title: "Feb 16 (Malmo Arena)",
+		animation: google.maps.Animation.DROP,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(57.739670, 12.116396);
+		var marker = new google.maps.Marker({
+		title: "Feb 17 (Partille Arena)",
+		animation: google.maps.Animation.DROP,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(59.300929, 18.088929);
+		var marker = new google.maps.Marker({
+		title: "Feb 18 (Fryshuset Arenan)",
+		animation: google.maps.Animation.DROP,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(63.433772, 10.404149);
+		var marker = new google.maps.Marker({
+		title: "Feb 20 (Olavshallen)\nFeb 21 (Olavshallen)",
+		animation: google.maps.Animation.DROP,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(58.159912, 8.018206);
+		var marker = new google.maps.Marker({
+		title: "Feb 23 (Teatersalen)",
+		animation: google.maps.Animation.DROP,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(58.976847, 5.719904);
+		var marker = new google.maps.Marker({
+		title: "Feb 24 (Stavanger Concert Hall)",
+		animation: google.maps.Animation.DROP,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(60.189275, 24.922511);
+		var marker = new google.maps.Marker({
+		title: "Feb 27 (Icehall)",
+		animation: google.maps.Animation.DROP,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.478610, -1.910086);
+		var marker = new google.maps.Marker({
+		title: "Apr 18 (Symphony Hall)",
+		animation: google.maps.Animation.DROP,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(53.469549, -2.221989);
+		var marker = new google.maps.Marker({
+		title: "Apr 19 (o2 apollo)",
+		animation: google.maps.Animation.DROP,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(55.864520, -4.252405);
+		var marker = new google.maps.Marker({
+		title: "Apr 20 (Royal Concert Hall)",
+		animation: google.maps.Animation.DROP,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(51.478937, -3.171723);
+		var marker = new google.maps.Marker({
+		title: "Apr 22 (Motorpoint Arena)",
+		animation: google.maps.Animation.DROP,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(51.490840, -0.224504);
+		var marker = new google.maps.Marker({
+		title: "Apr 23 (London Eventim Apollo)",
+		animation: google.maps.Animation.DROP,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(51.230104, 4.441558);
+		var marker = new google.maps.Marker({
+		title: "Apr 26 (Lotto Arena)",
+		animation: google.maps.Animation.DROP,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.397720, 2.191105);
+		var marker = new google.maps.Marker({
+		title: "Apr 28 (Razzmatazz)",
+		animation: google.maps.Animation.DROP,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(43.288231, -2.990771);
+		var marker = new google.maps.Marker({
+		title: "Apr 29 (BEC)",
+		animation: google.maps.Animation.DROP,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.146992, -8.605417);
+		var marker = new google.maps.Marker({
+		title: "Apr 30 (Coliseum Porto)",
+		animation: google.maps.Animation.DROP,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(43.128573, 5.932113);
+		var marker = new google.maps.Marker({
+		title: "May 2 (Zenith)",
+		animation: google.maps.Animation.DROP,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(43.770228, 11.261036);
+		var marker = new google.maps.Marker({
+		title: "May 5 (Teatro Verdi)",
+		animation: google.maps.Animation.DROP,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(45.690013, 13.130205);
+		var marker = new google.maps.Marker({
+		title: "May 6 (Arena Alpe Adria)",
+		animation: google.maps.Animation.DROP,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(45.031054, 7.664890);
+		var marker = new google.maps.Marker({
+		title: "May 7 (Auditorium Agnelli Lingotto)",
+		animation: google.maps.Animation.DROP,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(48.194667, 11.607863);
+		var marker = new google.maps.Marker({
+		title: "May 9 (Zenith)",
+		animation: google.maps.Animation.DROP,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(47.487085, 19.058493);
+		var marker = new google.maps.Marker({
+		title: "May 10 (BOK Hall)",
+		animation: google.maps.Animation.DROP,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.768386, 10.470106);
+		var marker = new google.maps.Marker({
+		title: "May 12 (Eventzentrum)",
+		animation: google.maps.Animation.DROP,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.513989, 7.313606);
+		var marker = new google.maps.Marker({
+		title: "May 13 (Emsland Arena)",
+		animation: google.maps.Animation.DROP,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(55.657946, 12.588903);
+		var marker = new google.maps.Marker({
+		title: "May 14 (Koncerthuset)",
+		animation: google.maps.Animation.DROP,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(50.266053, 19.025370);
+		var marker = new google.maps.Marker({
+		title: "May 16 (Spodek)",
+		animation: google.maps.Animation.DROP,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(48.185030, 16.420144);
+		var marker = new google.maps.Marker({
+		title: "May 17 (gasometer)",
+		animation: google.maps.Animation.DROP,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(46.766978, 23.570378);
+		var marker = new google.maps.Marker({
+		title: "May 19 (Polivalenta Hall)",
+		animation: google.maps.Animation.DROP,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(44.412976, 26.093237);
+		var marker = new google.maps.Marker({
+		title: "May 20 (The Roman Arenas)",
+		animation: google.maps.Animation.DROP,
+		position: latlng
+		});
+		marker.setMap(map);
+
+	}
+</script>
+</head>
+<body style="margin:0px; padding:0px;" onload="initialize()">
+	<div id="map_canvas" style="width: 100%; height: 100%;"></div>
+</body>
+</html>
